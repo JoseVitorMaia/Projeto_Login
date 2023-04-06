@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+---------------------------------
+ Pequenas: até 600px
+ Celular: 600 px ~ 768px
+ Tablet:  769px ~ 992px
+ Desktop: 993px ~ 1200px
+ Grandes Telas: acima de 1201px
+ 
+ */
+
+@media screen and (max-width:800px) {
+    #login {
+        width: 90vw;
+        height: 70vh;
+    }
+
+    #formulario{
+        position: absolute;
+        bottom: 0px;
+        width: 98%;
+
+    }
+
+    #imagem{
+        background-image: url(../imagens/imgPeq.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 0px;
+        height: 50%;
+        width: 90vw;
+        border-radius: 10px 10px 0px 0px;
+    }
+}

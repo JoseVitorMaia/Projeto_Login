@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/*
+  Paleta de Cores
+  Verde: #49a08d
+  Lilás: #5f2c82  
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,#5f2c82 ,#49a08d );
+}
+
+#login {
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+}
+
+#formulario{
+    width: 50%;
+    padding: 10px;
+}
+
+#formulario h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#texto {
+    text-align: justify;
+    padding: 8px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+input#iemail,#isenha {
+    width: 95%;
+    height: 20px;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 7px;
+    background-color: #49a08d;
+    border: 2px solid #5f2c82 ;
+}
+
+
+input {
+    width: 97%;
+    height: 30px;
+    margin: 3px;
+    padding: 3px;
+    border: 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.171);
+}
+
+#entrar {
+    background-color: #49a08dde ;
+    color: white;
+}
+
+#entrar:hover{
+    cursor: pointer;
+    background-color: #428f7e;
+}
+
+#esqSenha {
+    color: #49a08d;
+}
+
+#esqSenha:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+
+
+#imagem {
+    width: 50%;
+    background-image: url(../imagens/imgGrande.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 10px 10px 0px;
+}
