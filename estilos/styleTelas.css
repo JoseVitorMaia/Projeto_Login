@@ -11,17 +11,28 @@
  */
 
 @media screen and (max-width:800px) {
+
+    body{
+        background-image: linear-gradient(to bottom, #49a08d, #602c82da );
+    }
+
     #login {
-        width: 90vw;
-        height: 70vh;
+        width: 250px;
+        height: 500px;
     }
 
     #formulario{
         position: absolute;
         bottom: 0px;
         width: 98%;
-
     }
+
+    #texto,h1 {
+        position: relative;
+        left: -5px;
+        padding: 2px;
+    }
+
 
     #imagem{
         background-image: url(../imagens/imgPeq.jpg);
@@ -29,8 +40,17 @@
         background-repeat: no-repeat;
         position: relative;
         top: 0px;
-        height: 50%;
-        width: 90vw;
+        height: 200px;
+        width: 250px;
         border-radius: 10px 10px 0px 0px;
     }
+
+    input {
+        width: 230px;
+    }
+
+    input#iemail,#isenha {
+        width: 220px;
+    }
+
 }
