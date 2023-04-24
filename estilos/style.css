@@ -52,14 +52,39 @@ body {
     margin-bottom: 20px;
 }
 
+::placeholder{
+    color: black;
+}
+
+
+.campo {
+    background-color: #5f2c82;
+    border-radius: 5px;
+    margin: 5px 0px;
+    width: 98%;
+}
+
+.campo > span {
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
 input#iemail,#isenha {
-    width: 95%;
+    width: 87%;
     height: 20px;
     margin: 2px;
     padding: 3px;
     border-radius: 7px;
     background-color: #49a08d;
     border: 2px solid #5f2c82 ;
+    transform: translateY(-1px);
+}
+
+input#iemail:focus-within,#isenha:focus-within{
+    background-color: white;
+    color: black;
 }
 
 

@@ -34,6 +34,9 @@
         padding: 2px;
     }
 
+    .campo {
+        width: 96%;
+    }
 
     #imagem{
         background-image: url(../imagens/imgPeq.jpg);
@@ -52,7 +55,7 @@
     }
 
     input#iemail,#isenha {
-        width: 220px;
+        width: 190px;
     }
 
 }
@@ -89,5 +92,9 @@
         font-size: 45px;
         margin-bottom: 20px;
         background-image: linear-gradient(to right,white,rgba(0, 0, 0, 0.089),white);
+    }
+
+    input#iemail,#isenha {
+        width: 90%;
     }
 }
